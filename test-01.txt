@@ -1,0 +1,81 @@
+1) java is object oriented programming language and develop application like mobile application,desktop application
+   plantform idependent because they run any system like-windows,linux,MacOs  
+
+2)Aechitecture of java
+   a)jdk-java development kit
+      it compiles the code
+   b)jvm-java virtual machine
+       it converts byte code into machine code
+   c)jre-java runtime error
+       it excutes the program
+
+3)JVM-it is the virtul machine of java and its compile byte code
+  role-converts byte code into machine code
+ *without JVM java program will not be run
+
+4)"write Once,Run anywhere"
+     it is the principle of java program and its also called wora 
+     it run any system like-windows,macos,linux and it is also called platform independent
+
+5)bytecode-byte code is the binary code of java and it run in java virtual machine 
+   #it is machine level language and understanding the JVM
+   
+6)datatype-datatype is the define object of class
+  #primitive Datatypes-stores values directly
+  eg-int, float ,double
+ #non primitive datatypes-it stores refrences 
+   eg-sting ,char
+ 
+7)default value-it is a non primitive datatype 
+class DefaultValues {
+    static int a;
+    static float b;
+    static double c;
+    
+    public static void main(String[] args) {
+        System.out.println(a); 
+        System.out.println(b); 
+         
+    }
+}
+
+8)satstic- a method belongs to class not an object and used to define of a blueprint of a class
+     class Demo {
+        static void show() 
+          {
+        System.out.println("Hello");
+    }
+
+    public static void main(String[] args) {
+        Demo.show();    }
+}
+
+
+10)class Sales 
+         {
+    public static void main(String[] args) 
+          {
+        int[] sales = {1000,2500,450,650};
+
+        int total = 0;
+        int max = sales[0];
+        int day = 1;
+
+      for (int i = 0; i < sales.length; i++) 
+                   {
+            total += sales[i];
+
+            if (sales[i] > max) {
+                max = sales[i];
+                day = i + 1;
+            }
+        }
+
+        System.out.println("Total Sales: " + total);
+        System.out.println("Highest Sale: " + max + " 1" + day);
+    }
+}
+
+8)variable in java-it is the define object 
+
+
