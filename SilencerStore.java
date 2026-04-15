@@ -8,10 +8,9 @@ class SilencerStore {
             if (index < silencers.length) {
                 silencers[index] = silencer;
                 index++;
-            } else {
-                System.out.println("Array is full");
-            }
-        } else {
+            } 
+		} 
+		else {
             System.out.println("Silencer is null");
         }
     }

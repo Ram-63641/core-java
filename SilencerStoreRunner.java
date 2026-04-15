@@ -12,7 +12,6 @@ class SilencerStoreRunner {
         Silencer s8 = new Silencer("Ducati", "Carbon", 12.5, 2.7, "Red", 3000, "Racing", true, "Bike", "Italy");
         Silencer s9 = new Silencer("BMW", "Steel", 13.2, 3.1, "Black", 3500, "Premium", false, "Bike", "Germany");
         Silencer s10 = new Silencer("Kawasaki", "Alloy", 12.8, 3.0, "Green", 2500, "Sport", true, "Bike", "Japan");
-
         Silencer s11 = new Silencer("Hero", "Iron", 9.5, 2.3, "Black", 800, "Standard", true, "Bike", "India");
         Silencer s12 = new Silencer("Mahindra", "Steel", 10.2, 2.4, "Gray", 950, "Standard", false, "Bike", "India");
         Silencer s13 = new Silencer("Aprilia", "Alloy", 11.7, 2.8, "Red", 2200, "Sport", true, "Bike", "Italy");

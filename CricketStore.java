@@ -12,11 +12,7 @@ class CricketStore {
                 System.out.println("Saved at index: " + index);
                 index++;
             } 
-			else {
-                System.out.println("Array is full");
-            }
-
-        } 
+		} 
 		else {
             System.out.println("Cricket is null");
         }

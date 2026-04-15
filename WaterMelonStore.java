@@ -12,8 +12,6 @@ void store(WaterMelon watermelon)
 		System.out.println("Successfully saved to index: " + this.index);
 		this.index++;
             } 
-		
-		
 	}
 	else{
 	System.out.println("The array is null ");

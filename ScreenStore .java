@@ -10,10 +10,9 @@ class ScreenStore {
                 screens[index] = screen;
                 System.out.println("Saved at index: " + index);
                 index++;
-            } else {
-                System.out.println("Array is full");
-            }
-        } else {
+            } 
+		} 
+		else {
             System.out.println("Object is null");
         }
     }

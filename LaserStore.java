@@ -11,11 +11,9 @@ class LaserStore {
                 lasers[index] = laser;
                 System.out.println("Saved at index: " + index);
                 index++;
-            } else {
-                System.out.println("Array is full");
-            }
-
-        } else {
+            } 
+		} 
+		else {
             System.out.println("Laser is null");
         }
     }

@@ -13,7 +13,6 @@ class ScreenRunner {
         Screen s8 = new Screen("Realme", 43, "LED", 28000, "Full HD", true, 60, "Black", "1 year", "India");
         Screen s9 = new Screen("Philips", 55, "OLED", 70000, "4K", true, 120, "Silver", "2 years", "Netherlands");
         Screen s10 = new Screen("Sharp", 60, "LED", 50000, "4K", true, 120, "Black", "2 years", "Japan");
-
         Screen s11 = new Screen("Samsung", 75, "QLED", 90000, "8K", true, 144, "Black", "3 years", "India");
         Screen s12 = new Screen("LG", 48, "OLED", 65000, "4K", true, 120, "Gray", "2 years", "Korea");
         Screen s13 = new Screen("Sony", 55, "LED", 48000, "4K", true, 120, "Black", "2 years", "Japan");
