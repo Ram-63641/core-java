@@ -73,7 +73,7 @@ class NewsPaperStore {
     }
 
     
-    void updateLangByName(String name, String newLang) {
+    void updateLangByName(String name, Lang newLang) {
         if (name != null && newLang != null) {
             for (NewsPaper paper : newspapers) {
                 if (paper != null && paper.name.equals(name)) {

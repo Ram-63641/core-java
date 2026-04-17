@@ -1,0 +1,3 @@
+ enum InkColor {
+	BLACK,GREEN,RED,YELLOW,BLUE
+}
